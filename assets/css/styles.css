@@ -907,3 +907,37 @@ footer p { color: var(--muted); font-size: .8rem; font-family: 'Space Mono', mon
 #contact{
    scroll-margin-top: 100px;
 }
+
+/* ===== MOBILE RESPONSIVE FIX ===== */
+
+@media screen and (max-width: 768px){
+
+   .hero__robot,
+   .research-cube,
+   .research-pyramid,
+   .education-crystal,
+   .ai-chip,
+   .research__animation,
+   .research__robot{
+      display:none;
+   }
+
+   .hero-name{
+      font-size:3rem !important;
+   }
+
+   .hero__image{
+      width:220px;
+      height:220px;
+      margin:auto;
+   }
+
+   .hero-content{
+      text-align:center;
+   }
+
+   .hero-btns{
+      justify-content:center;
+      flex-wrap:wrap;
+   }
+}
